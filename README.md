@@ -1,14 +1,13 @@
-# JavaFX ToDoApp
+# JavaFX TO-DO App (UNDER DEVELOPMENT)
 
-This JavaFX ToDoApp is a task management application built using JavaFX.
+This JavaFX TO-DO List app is a task management application built using JavaFX. 
 
 ## Description
 
 This application allows users to:
 
-- **Add tasks:** Create new tasks with titles and descriptions.
+- **Add & remove tasks:** Create new tasks with titles and descriptions.
 - **Mark tasks as completed:** Toggle the completion status of tasks.
-- **Delete tasks:** Remove tasks that are no longer needed.
 - **Organize tasks:** Maintain a list of tasks to stay organized.
 
 ## Features
