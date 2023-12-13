@@ -1,0 +1,35 @@
+/* styles.css */
+
+/* Apply styles to the AnchorPane */
+#loginPane {
+    -fx-background-color: #f0f0f0; /* Set background color */
+}
+
+/* Style the VBox */
+VBox {
+    -fx-alignment: center; /* Center align the components */
+    -fx-spacing: 10; /* Set spacing between components */
+}
+
+/* Style the Label */
+Label {
+    -fx-font-size: 24; /* Set font size */
+}
+
+/* Style the TextField and PasswordField */
+TextField, PasswordField {
+    -fx-prompt-text-fill: #a9a9a9; /* Set prompt text color */
+    -fx-font-size: 14; /* Set font size */
+    -fx-pref-width: 200; /* Set preferred width */
+}
+
+/* Style the Buttons */
+Button {
+    -fx-font-size: 14; /* Set font size */
+    -fx-min-width: 100; /* Set minimum width */
+}
+
+/* Style the Error Label */
+#errorLabel {
+    -fx-text-fill: red; /* Set text color */
+}

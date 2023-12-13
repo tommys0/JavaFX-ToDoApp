@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import java.net.URL?>
+<AnchorPane fx:id="loginPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.taskmanagerv2.LoginController">
+    <stylesheets>
+        <URL value="@login.css" /> <!-- Link the CSS file -->
+    </stylesheets>
+    <children>
+        <VBox alignment="CENTER" spacing="10" layoutX="200" layoutY="100">
+            <Label text="Login" style="-fx-font-size: 24;" />
+            <TextField fx:id="usernameField" promptText="Username" />
+
+            <PasswordField fx:id="passwordField" promptText="Password" />
+
+            <HBox alignment="CENTER" spacing="10">
+                <Button fx:id="loginButton" text="Login" onAction="#handleLoginButtonAction" />
+                <Button text="Clear" onAction="#handleClearButtonAction" />
+            </HBox>
+        </VBox>
+        <!-- Error label overlay -->
+        <Label fx:id="errorLabel" style="-fx-text-fill: red;" layoutX="200" layoutY="250" visible="false" />
+    </children>
+</AnchorPane>

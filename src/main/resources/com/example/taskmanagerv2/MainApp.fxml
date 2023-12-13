@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import java.net.URL?>
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.taskmanagerv2.MainAppController"
+            prefHeight="400.0" prefWidth="600.0">
+
+    <stylesheets>
+        <URL value="@mainapp.css" />
+    </stylesheets>
+
+    <!-- Task List Display -->
+    <TableView fx:id="taskTableView" layoutX="20.0" layoutY="50.0" prefHeight="250.0" prefWidth="560.0">
+        <columns>
+            <TableColumn text="Task ID" fx:id="taskIdColumn" prefWidth="100" />
+            <TableColumn text="Description" fx:id="descriptionColumn" prefWidth="300" />
+        </columns>
+    </TableView>
+
+    <!-- Navigation Bar/Menu -->
+    <HBox layoutX="20.0" layoutY="330.0" spacing="10">
+        <Button text="Add Task" onAction="#handleAddTask" />
+        <Button text="Remove Task" onAction="#handleRemoveTask" />
+        <Button text="Mark as Done" />
+        <Button text="Filter/Sort Options" />
+    </HBox>
+
+    <!-- Task Details Panel -->
+    <!-- Separate area or pop-up to display detailed information about a selected task -->
+
+</AnchorPane>
+
