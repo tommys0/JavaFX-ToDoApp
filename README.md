@@ -53,8 +53,8 @@ Contributions are welcome! If you want to contribute to this project, please fol
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](LICENSE.txt).
 
 ## Contact
 
-For any questions or suggestions, feel free to contact me at [your_email@example.com](mailto:your_email@example.com).
+For any questions or suggestions, feel free to contact me at [dvoracek.tomas@outlook.com](mailto:dvoracek.tomas@outlook.com).
